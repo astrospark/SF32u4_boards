@@ -203,6 +203,8 @@ const USB_Descriptor_String_t ProductString =
 	.UnicodeString			= L"Pro Micro 3.3V"
 	#elif DEVICE_PID == 0x2B74
 	.UnicodeString			= L"MaKey MaKey   "
+	#elif DEVICE_PID == 0x0B99
+	.UnicodeString			= L"Command Center"
 	#else
 	.UnicodeString			= L"USB IO board  "
 	#endif
@@ -214,6 +216,8 @@ const USB_Descriptor_String_t ManufNameString =
 	
 	#if DEVICE_VID == 0x1B4F
 	.UnicodeString			= L"SparkFun Electronics"
+	#elif DEVICE_VID == 0x16D0
+	.UnicodeString			= L"Lazer Swarm         "
 	#else
 	.UnicodeString			= L"Unknown             "
 	#endif

@@ -7,3 +7,4 @@ IF "%1"=="promicro16" avrdude -p m32u4 -P usb -c avrispmkii -U flash:w:Caterina-
 IF "%1"=="makey" avrdude -p m32u4 -P usb -c avrispmkii -U flash:w:Caterina-makey.hex -U efuse:w:0xcb:m -U hfuse:w:0xd8:m -U lfuse:w:0xff:m
 IF "%1"=="wiflyin" avrdude -p m32u4 -P usb -c avrispmkii -U flash:w:Caterina-wiflyin.hex -U efuse:w:0xcb:m -U hfuse:w:0xd8:m -U lfuse:w:0xff:m
 IF "%1"=="minibench" avrdude -p m32u4 -P usb -c avrispmkii -U flash:w:Caterina-minibench.hex -U efuse:w:0xcb:m -U hfuse:w:0xd8:m -U lfuse:w:0xff:m
+IF "%1"=="commandcenter" avrdude -p m32u4 -P usb -c avrispmkii -U flash:w:Caterina-commandcenter.hex -U efuse:w:0xcb:m -U hfuse:w:0xd8:m -U lfuse:w:0xff:m
