@@ -7,3 +7,5 @@
 *.sym
 /bootloaders/caterina/.dep/
 /bootloaders/caterina/LUFA-111009/
+sparkfun/avr/bootloaders/caterina/.dep/
+sparkfun/avr/bootloaders/caterina/LUFA-111009/
